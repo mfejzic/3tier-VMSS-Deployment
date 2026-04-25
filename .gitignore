@@ -1,0 +1,67 @@
+# =========================
+# Terraform
+# =========================
+.terraform/
+*.tfstate
+*.tfstate.*
+terraform.tfstate
+terraform.tfstate.backup
+crash.log
+crash.*.log
+
+.terraform.lock.hcl
+
+# ⚠️ IMPORTANT: provider file contains secrets
+provider.tf
+providers.tf
+
+# Terraform variables (can contain secrets)
+terraform.tfvars
+*.tfvars
+*.tfvars.json
+
+# =========================
+# Python
+# =========================
+__pycache__/
+*.py[cod]
+*.pyo
+*.pyd
+.Python
+venv/
+env/
+ENV/
+
+# =========================
+# Logs
+# =========================
+*.log
+nohup.out
+gunicorn.log
+deploy.log
+
+# =========================
+# Secrets / Keys (VERY IMPORTANT)
+# =========================
+*.pem
+*.key
+*.crt
+*.p12
+
+# Example from your project (DO NOT COMMIT)
+image_key.pem
+
+# =========================
+# OS / Editor
+# =========================
+.DS_Store
+Thumbs.db
+.vscode/
+.idea/
+
+# =========================
+# Build / temp files
+# =========================
+*.bak
+*.swp
+*.tmp
