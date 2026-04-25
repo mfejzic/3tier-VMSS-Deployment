@@ -1,7 +1,7 @@
 ﻿
 # Three Tier VMSS Application Deployent 
 
-This model provisions three tier scalable application tier using VM Scale Sets and a private database tier to deploy a flask app gunicorn server on an Ubuntu instance.
+This model provisions a three tier application using VM Scale Sets and a private database to deploy a flask app gunicorn server on an Ubuntu instance.
 
 ---
 
